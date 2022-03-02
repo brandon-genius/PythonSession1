@@ -39,19 +39,19 @@ this is js comment*/
 
 let platform= "Sales Force";
 let Machine= "Computer";
-let casesOpen = 100;
+let cases = "cases";
 let subject = "site name - program name";
 let siteName = "Target-123";
 let program = "SPP OR";
 let daysOpen = 12;
 let SLA = 10;
-let accountOwner = "me";
+let accountOwner = "The Sales person in charge";
 let accountName = "Target";
 let caseOwner = "you";
 let caseNumber = 55555;
 let reportingMethod = "Reports";
 let viewingMethod = "Dashboards";
-let description = "details";
+let description = "details of the case";
 let internalNotes = "internal status";
 let dateModified = "Today";
 let integrationTool = "Task Ray";
@@ -64,6 +64,16 @@ let Voltus=`
     <p><b>Company runs on:</b> ${Machine}</P>
     <p><b>Company uses:</b> ${platform}</P>
     <p><b>Company Tools:</b> <li> ${company}, ${integrationTool}, ${integrationToolG}, ${integrationToolS}, ${reportingMethod}, ${viewingMethod}</li> </p>
+    <p><b>Sales Force uses:</b> ${cases}</P>
+    <p><b>Cases have subject structure of:</b> ${subject}</P>
+    <p><b>Example of site:</b> ${siteName}</P>
+    <p><b>Example of program:</b> ${program}</P>
+    <p><b>Example of an account:</b> ${accountName}</P>
+    <p><b>How many days a case should be open for:</b> ${SLA}</P>
+    <p><b>Average 2021 Days open:</b> ${daysOpen}</P>
+    <p><b>Example of case number:</b> ${caseNumber}</P>
+    <p><b>Example of case owner:</b> ${caseOwner}</P>
+    <p><b>What is in the decription?:</b> ${description}</P>
 `;
 
 document.write(Voltus);
